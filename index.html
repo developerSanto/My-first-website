@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html practise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1>Welcome to the Web Development</h1>
+    </div>
+    <div class="div2">
+        <h1>Html list item</h1>
+        <hr>
+    </div>
+    <div>
+        <h3>There are two kinds of list item</h3>
+        <h4>1. Ordered list</h4>
+        <h4>2. Unordered list</h4>
+    </div>
+    
+    <div>
+        <h1>Ordered list</h1>
+        <ol>
+            <li>Rokibul santo</li>
+            <li>Mahdi hasan</li>
+            <li>Rokibul parves</li>
+            <li>Alamin Rabbi</li>
+        </ol>
+    </div>
+    <div>
+        <h1>Unordered list</h1>
+        <ul type="square">
+            <li>Partha Ranjan Datta</li>
+            <li>Sibbir shimanto</li>
+            <li>Mithun</li>
+            <li>Minu</li>
+        </ul>
+    </div>
+    <div>
+        <h1>Ordered list into Unordered list</h1>
+        <ol>
+            <li type="none">Shirt
+                <ul type="square">
+                    <li>Formal shirt</li>
+                    <li>Casual shirt</li>
+                    <li>T-shirt</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+        <h1>Html Image setup</h1><hr>
+        <img class="imagesetup" src="image setup/Folk Brothers.png" alt="Folk Brothers" title="Folk Brothers">
+    </div>
+    <div>
+        <h1>Use of Iframe</h1><hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WvCDcBqckrM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+    <h1>Html hyperlink</h1>
+    <a href="https://www.facebook.com/rokibul.santo.9/" target="blank">Rokibul santo facebook</a><br>
+    <a href="https://www.youtube.com" target="blank">youtube</a> <br>
+    <a href="https://www.Google.com" target="blank">Google</a>
+   </div>
+   <div>
+       <h1>Html Table</h1><hr>
+       <table border="2px" cellspacing="15" cellpadding="5">
+           <tr>
+               <th>Name</th>
+               <th>Age</th>
+               <th>Gender</th>
+           </tr>
+           <tr align="center">
+               <td>Rokibul santo</td>
+               <td>23</td>
+               <td>Male</td>
+           </tr>
+           <tr align="center">
+            <td>Maisha Fairoz</td>
+            <td>22</td>
+            <td>Female</td>
+        </tr>
+        <tr align="center">
+            <td>Rokibul parves</td>
+            <td>23</td>
+            <td>Male</td>
+        </tr>
+       </table>
+   </div>
+   <div>
+       <h1>code for rowspan</h1><hr>
+       
+       <table border="2"> 
+           <tr>
+               <th>Roll</th>
+               <th>Name</th>
+               <th>GPA</th>
+           </tr>
+           <tr>
+               <td rowspan="2">1</td> <!--rowspan occured here-->
+               <td>5</td>
+           </tr>
+           <tr>
+               <td>mahfuz</td>
+               <td>4.97</td>
+           </tr>
+           <tr>
+               <td>3</td>
+               <td>santo</td>
+               <td>5</td>
+           </tr>
+       </table>
+       <div>
+           <h1>code for colspan</h1><hr>
+           <table border="2">
+               <tr>
+                   <th>Name</th>
+                   <th colspan="2">Mobile</th>
+               </tr>
+               <tr>
+                   <td>Rokib</td>
+                   <td>01677967755</td>
+                   <td>01705260123</td>
+                   
+               </tr>
+               <tr>
+                   <td>Maisha</td>
+                   <td>017XXXXXXXX</td>
+                   <td>016XXXXXXXX</td>
+               </tr>
+
+           </table>
+       </div>
+</div>
+<div>
+    <h1>Combination of row and colspan</h1>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Phone</th>
+            <th>House NO</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Santo boss</td>
+            <td>01258458795</td>
+            <td>01245796555</td>
+            <td>Dhanmondi 15</td>
+            
+        </tr>
+        <tr>
+            <td>0154879654</td>
+            <td>0132548798</td>
+            <td>Gulshan</td>
+        </tr>
+        <tr>
+            <td>Parves</td>
+            <td>01548798796</td>
+            <td>01548745211</td>
+            <td>Gulshan</td>
+        </tr>
+
+    </table>
+</div>
+<div>
+    <h1>Html table and list</h1>
+    <table border="2">
+        <tr>
+        <td>Male student</td>
+        </tr>
+        <tr>
+        <td>
+        <ol>
+            <li>Mahdi hasan</li>
+            <li>Rokibul santo</li>
+            <li>Rokibul parves</li>
+        </ol>
+         </td>
+        </tr>
+        <tr>
+            <td>Female student</td>
+        </tr>
+        <tr>
+            <td>
+                <ul type="square">
+                    <li>Maisha</li>
+                    <li>Diya</li>
+                    <li>Tuba</li>
+                </ul>
+            </td>
+        </tr>
+
+    </table>
+</div>
+<div>
+    <h1>Table hyperlink with list</h1>
+    <table border="2">
+        <tr>
+            <td>Favorite websites</td>
+        </tr>
+        <tr>
+            <td>
+               <ol>
+                   <li> <a href="https://www.facebook.com" target="blank">Facebook</a></li>
+                   <li> <a href="https://www.Google.com" target="blank">Google</a></li>
+                   <li> <a href="https://www.youtube.com" target="blank">Youtube</a></li>
+               </ol>
+            </td>
+        </tr>
+
+    </table>
+</div>
+<div>
+    <h1>Table image hyperlink</h1>
+    <table border="2">
+        <caption>Students details</caption>
+        <tr>
+            <td>Rokibul santo</td>
+            <td colspan="4">
+                <a href="https://www.facebook.com/rokibul.santo.9/" target="blank">
+                <img src="image setup/santo.png" alt="santo" width="200px" height="200px" title="santo">
+               </a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dhaka City College</td>
+        </tr>
+        <tr>
+            <td>01677967755</td>
+        </tr>
+        <tr>
+            <td>
+                My favorite Countries
+                <ol>
+                    <li>Bangladesh</li>
+                    <li>America</li>
+                    <li>Canada</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</div>
+<div>
+    <h1>Html Form</h1>
+    <form action="">
+        <b>Frist Name:</b> <input type="text" name="firstName" id=""><br>
+        <b>Last Name:</b> <input type="text" name="lastName" id=""> <br>
+        <b>Password:</b> <input type="password" name="" id="">
+    </form>
+</div>
+<div class="checkboxForm">
+    <h1>Radio button,Checkbox,Fieldset,legend</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <b>Gender:</b> <input type="radio" name="male"  value="male"> Male
+            <input type="radio" name="female" value="female" checked> Female
+            <input type="radio" name="others" value="others"> Others
+            <br>
+            <b>Religion:</b> <input type="checkbox" name="islam" checked> Islam
+            <input type="checkbox" name="hindu"> Hindu
+            <input type="checkbox" name="others"> Others
+            <br>
+            <b>Department:</b> <select name="" id="">
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+            </select> <br>
+            <textarea name="comments" id="" cols="14" rows="7" placeholder="Your Comment"></textarea><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </fieldset>
+    </form>
+</div>
+<div>
+    <h1>Form validation</h1>
+    <form action="">
+        <datalist id="names">
+            <option value="Rokibul santo">Rokibul santo</option>
+            <option value="Maisha Fairoz">Maisha Fairoz</option>
+            <option value="Tua">Tua</option>
+        </datalist>
+
+        <p><input type="text" list="names" placeholder="Your Name"></p>
+        <p><input type="email" placeholder="Enter your email"></p>
+        <p><input type="submit"></p>
+    </form>
+</div>
+<div>
+    <h1>Adding Audio</h1>
+     <audio controls src="audioSet/UffKyaRaatAayiHaiRemix.mp3"> </audio>
+     <audio controls src="audioSet/Dj Kantik - Kul (Original Mix).wav"></audio>
+
+</div>
+<div>
+    <h1>Adding video</h1>
+    <video controls src="videoSet/picnicUkulele.mp4" height="400px" width="400px"></video>
+</div>
+<div>
+    <h1>Progress bar</h1>
+    <ol>
+        <li>HTML:<progress min="0" max="100" value="90"> </progress></li>
+        <li>CSS:<progress min="0" max="100" value="80"> </progress></li>
+        <li>JavaScript:<progress min="0" max="100" value="70"> </progress></li>
+    </ol>
+</div>
+</body>
+</html>
+
